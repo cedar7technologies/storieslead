@@ -1,0 +1,10 @@
+Git commands
+
+git init   ( initialization )
+git add .  ( adding all files into the created git )
+git commit -m "first commit"
+git remote add ddd "url of the rep"
+git push ddd master
+
+
+git clone "url of the rep"
