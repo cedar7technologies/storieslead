@@ -16,12 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from user_sl.views import signin, signup, password, resetpassword
+from user_sl.views import signin, signup, password, resetpassword, checkUser
 
 urlpatterns = [
-
     path('signup',signup),
     path('password',password),
     path('resetpassword',resetpassword),
     path('', signin),
+    path('checkUser/',checkUser)
 ]
